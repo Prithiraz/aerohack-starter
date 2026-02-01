@@ -1,0 +1,17 @@
+{
+  "orbit": {
+    "type": "placeholder",
+    "note": "Replace with orbital elements or TLE-based propagation"
+  },
+  "targets": [
+    {"name": "T1", "lat": 51.5074, "lon": -0.1278, "value": 10},
+    {"name": "T2", "lat": 40.7128, "lon": -74.0060, "value": 8}
+  ],
+  "ground_stations": [
+    {"name": "GS1", "lat": 51.5074, "lon": -0.1278}
+  ],
+  "constraints": {
+    "pointing": {"type": "placeholder"},
+    "power": {"type": "placeholder"}
+  }
+}
