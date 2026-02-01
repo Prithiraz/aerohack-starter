@@ -1,0 +1,19 @@
+{
+  "waypoints": [
+    {"name": "WP1", "lat": 51.5007, "lon": -0.1246},
+    {"name": "WP2", "lat": 51.5155, "lon": -0.0722}
+  ],
+  "no_fly_zones": [
+    {
+      "name": "NFZ1",
+      "polygon": [
+        [51.5050, -0.1400],
+        [51.5100, -0.1400],
+        [51.5100, -0.1300],
+        [51.5050, -0.1300]
+      ]
+    }
+  ],
+  "wind_model": {"type": "placeholder"},
+  "endurance_budget": {"type": "placeholder"}
+}
