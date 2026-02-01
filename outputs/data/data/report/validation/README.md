@@ -1,8 +1,14 @@
-# Validation
+# AeroHack Starter Pack
 
-Include evidence for both aircraft and spacecraft:
-- Monte-Carlo runs (e.g., wind seeds / parameter sweeps)
-- stress tests
-- baselines
-- sanity checks / unit tests
-Summarise results in the report.
+This repo provides a lightweight structure for AeroHack submissions.
+
+## Quickstart
+```bash
+python -m venv .venv
+# macOS/Linux:
+source .venv/bin/activate
+# Windows:
+# .venv\Scripts\activate
+
+pip install -r requirements.txt
+python run_all.py
